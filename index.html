@@ -104,7 +104,15 @@ context.clearRect(0, 0, canvas.width, canvas.height);
   context.lineTo(cx, cy + scale / 1);
   context.stroke();
    
-     </script>
+// draw a new Letter T on top of the UT symbol
+context.strokeStyle = "#002932"; // dark blue
+context.lineWidth = 5 // thinner line than the original line		
+context.beginPath();
+context.moveTo(80,196.4);	
+context.lineTo(280,196.4);	
+context.stroke();
+	
+	</script>
 		
 	</p>
 </div>
